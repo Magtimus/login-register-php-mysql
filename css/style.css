@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../image/bg5.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container-form{
+    width: 100%;
+    max-width: 700px;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    background: #282638;
+    display: flex;
+    position: relative;
+}
+
+.logo-title{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.logo-title img{
+    width: 40px;
+    height: 40px;
+}
+
+.logo-title h2{
+   margin-left: 10px;
+    margin-top: 8px;
+    color: white;
+    font-weight: 300;
+}
+
+.menu{
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: white;
+}
+
+.menu li{
+    list-style: none;
+    padding: 30px;
+    padding-bottom: 27px;
+    font-weight: 300;
+}
+
+.line-li{
+    border-bottom: 4px solid #5584FF;
+}
+
+.menu li:hover{
+    border-bottom: 4px solid #fff;
+    cursor: pointer;
+}
+
+a{
+    color: white;
+}
+
+/*formulario Login*/
+
+
+.form{
+    width: 100%;
+}
+
+.form .welcome-form{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.form .welcome-form h1{
+    font-weight: 300;
+    font-size: 30px;
+    color: #898989;
+}
+
+.form .welcome-form h2{
+    font-size: 34px;
+    margin-left: 10px;
+    margin-top: -4px;
+    font-weight: bold;
+    color: #5584FF;
+}
+
+.line-input{
+    max-width: 350px;
+    display: flex;
+    border-bottom: 1px solid #efefef;
+    margin: auto;
+    margin-top: 40px;
+    padding: 6px;
+    position: relative;
+}
+
+.border-input{
+    border-bottom: 1px solid #5584FF;
+}
+
+.line-input input{
+    border-style: none;
+    outline: 0px;
+    margin-left: 10px;
+    font-size: 16px;
+    width: 100%;
+    font-weight: 300;
+}
+
+.line-input label{
+    font-size: 20px;
+    position: relative;
+    top: -4px;
+    color: #0076ff;
+}
+
+.form button{
+    width: 300px;
+    height: 50px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    color: white;
+    background: #5584FF;
+    border-style: none;
+    outline: 0px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form button:hover{
+    opacity: .9;
+}
+
+.form button label{
+    position: relative;
+    left: 50px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+
+.mensaje{
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: left;
+    padding: 6px;
+    color: red;
+}
+
+
+.active{
+    border-bottom: 4px solid #5584FF;
+}
+
+
+/*Principal*/
+
+
+.welcome{
+            width: 100%;
+            max-width: 600px;
+            margin: auto;
+            margin-top: 100px;
+            background: rgba(0,0,0,0.6);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .welcome h1{
+            font-size: 50px;
+            color: white;
+            font-weight: 100;
+        }
+        
+        .welcome a{
+            display: block;
+            margin-top: 40px;
+            font-size: 20px;
+            padding: 10px;
+            border: 1px solid white;
+        }
+        
+        .welcome a:hover{
+            color: black;
+            background: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
